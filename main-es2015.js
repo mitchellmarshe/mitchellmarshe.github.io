@@ -45,7 +45,7 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"Footer flex-row flex-centered\">\n    <div style=\"color: var(--tertiary-text-color)\">\n        &copy; 2018 - {{this.currentYear()}} Mitchell Marshe.\n    </div>\n</footer>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<footer class=\"Footer flex-row flex-centered d-print-none\">\n    <div style=\"color: var(--tertiary-text-color)\">\n        &copy; 2018 - {{this.currentYear()}} Mitchell Marshe.\n    </div>\n</footer>\n");
 
 /***/ }),
 
@@ -71,7 +71,20 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"navigation-bar flex-row flex-centered\">\n    <a class=\"navigation-brand flex-row flex-centered\" routerLink=\"\">\n        <img src=\"/assets/images/mm_logo.png\" alt=\"MM\" width=\"48\" height=\"48\">\n        &nbsp;\n        <h1>Mitchell Marshe</h1>\n    </a>\n</div>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"navigation-bar flex-row flex-centered d-print-none\">\n    <a class=\"navigation-brand flex-row flex-centered\" routerLink=\"\">\n        <img src=\"/assets/images/mm_logo.png\" alt=\"MM\" width=\"48\" height=\"48\">\n        &nbsp;\n        <h1>Mitchell Marshe</h1>\n    </a>\n    <!---\n    <a routerLink=\"resume\">\n        <h1>Resume</h1>\n    </a>\n    --->\n</div>\n");
+
+/***/ }),
+
+/***/ "./node_modules/raw-loader/dist/cjs.js!./src/app/resume/resume.component.html":
+/*!************************************************************************************!*\
+  !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/resume/resume.component.html ***!
+  \************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("<div class=\"flex-row flex-centered\" style=\"background-color: white;\">\n\t<div class=\"page flex-row\" style=\"background-color: white;\">\n        <div class=\"flex-column col-left\">\n            <div class=\"flex-column flex-centered\">\n                <h1>Mitchell Marshe</h1>\n                <h2>Software Engineer</h2>\n                <img style=\"border-radius: 8px;\" src=\"/assets/images/home/Mitchell.png\" alt=\"Mitchell\" width=\"256\" height=\"256\">\n            </div>\n\n            &nbsp;\n\n            <h3>Contact</h3>\n            <p>\n                Austin, Texas\n                <br>\n                512 – 966 – 5841\n                <br>\n                mitchellmarshe@gmail.com\n                <br>\n                <a href=\"https://mitchellmarshe.github.io/\" target=\"_blank\">mitchellmarshe.github.io</a>\n                <br>\n                <a href=\"https://www.linkedin.com/in/mitchellmarshe\" target=\"_blank\">linkedin.com/in/mitchellmarshe</a>\n            </p>\n\n            <h3>Web Development</h3>\n            <p>\n                Angular | CSS | HTML | Jasmine\n                <br>\n                Mocha | MySQL | React\n            </p>\n\n            <h3>Videogame Development</h3>\n            <p>\n                Blender | Bullet Physics | GIMP\n                <br>\n                Ogre3D | Unity3D | 3ds Max\n            </p>\n            \n            <h3>Programming Languages</h3>\n            <p>\n                C | C# | C++ | Java | JavaScript\n                <br>\n                Python | TypeScript\n            </p>\n\n            <h3>Tools</h3>\n            <p>\n                Adobe Suite\n                <br>\n                Autodesk Suite\n                <br>\n                Docker\n                <br>\n                Git | GitHub\n                <br>\n                Microsoft Office\n            </p>\n\n            <h3>Skills</h3>\n            <p>\n                Agile\n                <br>\n                Communication\n                <br>\n                Debugging\n                <br>\n                Extreme Programming\n                <br>\n                Scrum\n                <br>\n                Testing\n            </p>\n            <h3>Education</h3>\n            <h4>\n                University of Texas\n                <br>\n                Austin, Texas, Dec. 2019\n            </h4>\n            <p>\n                Bachelor of Science in Computer Science\n                <br>\n                Member of the National Society of Collegiate Scholars \n            </p>\n        </div>\n        <div class=\"flex-column col-right\">\n            <h3 class=\"H\">Employment</h3>\n            <h4 class=\"H\">\n                Support Engineer, uStudio, Inc.\n                <br>\n                Austin, Texas, Jan. 2020 – Present\n            </h4>\n            <ul>\n                <li>\n                    Managing the Customer Support team. Leading daily scrums as Scrum Master. \n                    Training customer support agents. \n                    Assisting uStudio management with business operations and fostering business relationships. \n                    Reporting daily business to uStudio management. \n                    Liaison to the Engineering, Product, and Customer Success teams. \n                </li>\n                <li>\n                    Handling all customer support requests through email, Intercom, phone, and web conferences. \n                    Maintaining service level agreements and security policies. \n                    Deploying applications with custom branding, SSO, SCIM, and integrations to clients. \n                </li>\n                <li>\n                    Innovating uStudio enterprise software based on client feedback. \n                    Writing custom scripts in JavaScript, HTML5, CSS, SCSS, and SQL for clients and uStudio. \n                    Creating tools for uStudio to automate work. \n                    Developing business intelligence and business analytics dashboards for uStudio and clients.\n                </li>\n                <li>\n                    Documenting knowledge base articles to educate clients about uStudio’s Platform and Podcast products. \n                    Documenting internal guides in Confluence to educate uStudio employees. \n                    Writing Jira tickets for service requests to the Engineering team and features requests to the Product team. \n                    Writing statements of work to clients for custom integrations.\n                </li>\n            </ul>\n            <h4 class=\"H\">\n                Software Engineer Intern, WellSky\n                <br>\n                Austin, Texas, May 2019 – Aug. 2019\n            </h4>\n            <ul>\n                <li>\n                    Developed a SaaS/SRE dashboard to track jobs running on Jenkins. \n                    This application is written in Angular, leverages DevExpress, hosted \n                    on AWS, and presented on mobile, desktop, and TV monitors.\n                </li>\n                <li>\n                    Reduced SQL injection risks in the Home Health & Hospice \n                    application written in ColdFusion and Angular.\n                </li>\n                <li>\n                    Maintained several Confluence documents and reworked onboarding procedures for future software engineers.\n                </li>\n                <li>\n                    Adhered to HIPAA and ADA compliances.\n                </li>\n            </ul>\n            <h4 class=\"H\">\n                Sales Assoicate, Ross Stores, Inc.\n                <br>\n                Georgetown, Texas, Oct. 2013 – Dec. 2015\n            </h4>\n            <ul>\n                <li>\n                    Cashier and provided management.\n                </li>\n                <li>\n                    Awarded Employee of the Month (Sept. 2014) for delivering \n                    excellent customer service and driving sales contribution.\n                </li>\n            </ul>\n\n            <h3 class=\"H\">Projects</h3>\n            <h4 class=\"H\">Don't Roast! – PC/Mobile Fighting Videogame, 2019</h4>\n            <ul>\n                <li>\n                    Developed a 2D boss battle game in Unity3D.\n                </li>\n                <li>\n                    Programmed user controls, user interfaces, and environmental\n                    animations in C#.\n                </li>\n                <li>\n                    Created environmental assets and designed levels around a\n                    conceptual world.\n                </li>\n                <li>\n                    Published at \n                    <a href=\"https://themellowbunch.itch.io/dont-roast\" target=\"_blank\">themellowbunch.itch.io/dont-roast</a>\n                </li>\n            </ul>\n            <h4 class=\"H\">Extrication – PC/Mobile Horror Videogame, 2019</h4>\n            <ul>\n                <li>\n                    Developed an action driven horror game in Unity3D.\n                </li>\n                <li>\n                    Programmed various mechanics and user controls in C#.\n                </li>\n                <li>\n                    Designed the general user interface and world level.\n                </li>\n                <li>\n                    Published at \n                    <a href=\"https://thegroovybuffalos.itch.io/extrication\" target=\"_blank\">thegroovybuffalos.itch.io/extrication</a>\n                </li>\n            </ul>\n            <h4 class=\"H\">Photography Simulator – Graphic/Game Engine, 2018</h4>\n            <ul>\n                <li>\n                    Developed a graphic/game engine in OpenGL3 with a colleague.\n                </li>\n                <li>\n                    Implemented Phong shading, raytracing, lighting, post processed\n                    visual effects, game object, component-based architecture, etc.\n                </li>\n                <li>\n                    Created a videogame demo that simulated photography camera\n                    lenses and their effects.\n                </li>\n            </ul>\n            <h4 class=\"H\">GameFrame.Online – Videogame Database, 2018</h4>\n            <ul>\n                <li>\n                    Developed the frontend with ReactJS, Bootstrap, and other tools.\n                </li>\n                <li>\n                    Created Mocha tests and documented code & design on Git.\n                </li>\n            </ul>\n        </div>\n    </div>\n</div>\n");
 
 /***/ }),
 
@@ -392,6 +405,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./navigation-bar/navigation-bar.component */ "./src/app/navigation-bar/navigation-bar.component.ts");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
 /* harmony import */ var _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./footer/footer.component */ "./src/app/footer/footer.component.ts");
+/* harmony import */ var _resume_resume_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./resume/resume.component */ "./src/app/resume/resume.component.ts");
+
 
 
 
@@ -403,6 +418,7 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     { path: 'portfolio', redirectTo: '', pathMatch: 'full' },
     { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"] },
+    { path: 'resume', component: _resume_resume_component__WEBPACK_IMPORTED_MODULE_8__["ResumeComponent"] },
     { path: '**', component: _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"] }
 ];
 let AppModule = class AppModule {
@@ -413,7 +429,8 @@ AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
             _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
             _navigation_bar_navigation_bar_component__WEBPACK_IMPORTED_MODULE_5__["NavigationBarComponent"],
             _home_home_component__WEBPACK_IMPORTED_MODULE_6__["HomeComponent"],
-            _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__["FooterComponent"]
+            _footer_footer_component__WEBPACK_IMPORTED_MODULE_7__["FooterComponent"],
+            _resume_resume_component__WEBPACK_IMPORTED_MODULE_8__["ResumeComponent"]
         ],
         imports: [
             _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -562,6 +579,50 @@ NavigationBarComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./navigation-bar.component.css */ "./src/app/navigation-bar/navigation-bar.component.css")).default]
     })
 ], NavigationBarComponent);
+
+
+
+/***/ }),
+
+/***/ "./src/app/resume/resume.component.css":
+/*!*********************************************!*\
+  !*** ./src/app/resume/resume.component.css ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (".col-left {\r\n    background-color: var(--primary-background-color);\r\n    padding: 8px 8px 8px 8px;\r\n}\r\n\r\nh1 {\r\n    /*font-size: 36px;*/\r\n    white-space: nowrap;\r\n}\r\n\r\nh2 {\r\n    /*font-size: 30px;*/\r\n    white-space: nowrap;\r\n}\r\n\r\nh3 {\r\n    /*font-size: 24px;*/\r\n    white-space: nowrap;\r\n}\r\n\r\nh4 {\r\n    /*font-size: 18px;*/\r\n    white-space: nowrap;\r\n}\r\n\r\n.H {\r\n    background-color: var(--primary-background-color);\r\n    margin: 0px 0px 0px 0px;\r\n    padding: 4px 4px 4px 4px;\r\n}\r\n\r\np {\r\n    /*font-size: 18px;*/\r\n}\r\n\r\n.P {\r\n    color: var(--primary-background-color);\r\n}\r\n\r\nul {\r\n    \r\n}\r\n\r\nli {\r\n    color: var(--primary-background-color);\r\n}\r\n\r\n.col-right {\r\n    padding: 8px 8px 8px 8px;\r\n}\r\n\r\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcmVzdW1lL3Jlc3VtZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksaURBQWlEO0lBQ2pELHdCQUF3QjtBQUM1Qjs7QUFFQTtJQUNJLG1CQUFtQjtJQUNuQixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxtQkFBbUI7SUFDbkIsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLG1CQUFtQjtJQUNuQixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxpREFBaUQ7SUFDakQsdUJBQXVCO0lBQ3ZCLHdCQUF3QjtBQUM1Qjs7QUFFQTtJQUNJLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLHNDQUFzQztBQUMxQzs7QUFFQTs7QUFFQTs7QUFFQTtJQUNJLHNDQUFzQztBQUMxQzs7QUFFQTtJQUNJLHdCQUF3QjtBQUM1QiIsImZpbGUiOiJzcmMvYXBwL3Jlc3VtZS9yZXN1bWUuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5jb2wtbGVmdCB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1wcmltYXJ5LWJhY2tncm91bmQtY29sb3IpO1xyXG4gICAgcGFkZGluZzogOHB4IDhweCA4cHggOHB4O1xyXG59XHJcblxyXG5oMSB7XHJcbiAgICAvKmZvbnQtc2l6ZTogMzZweDsqL1xyXG4gICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcclxufVxyXG5cclxuaDIge1xyXG4gICAgLypmb250LXNpemU6IDMwcHg7Ki9cclxuICAgIHdoaXRlLXNwYWNlOiBub3dyYXA7XHJcbn1cclxuXHJcbmgzIHtcclxuICAgIC8qZm9udC1zaXplOiAyNHB4OyovXHJcbiAgICB3aGl0ZS1zcGFjZTogbm93cmFwO1xyXG59XHJcblxyXG5oNCB7XHJcbiAgICAvKmZvbnQtc2l6ZTogMThweDsqL1xyXG4gICAgd2hpdGUtc3BhY2U6IG5vd3JhcDtcclxufVxyXG5cclxuLkgge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tcHJpbWFyeS1iYWNrZ3JvdW5kLWNvbG9yKTtcclxuICAgIG1hcmdpbjogMHB4IDBweCAwcHggMHB4O1xyXG4gICAgcGFkZGluZzogNHB4IDRweCA0cHggNHB4O1xyXG59XHJcblxyXG5wIHtcclxuICAgIC8qZm9udC1zaXplOiAxOHB4OyovXHJcbn1cclxuXHJcbi5QIHtcclxuICAgIGNvbG9yOiB2YXIoLS1wcmltYXJ5LWJhY2tncm91bmQtY29sb3IpO1xyXG59XHJcblxyXG51bCB7XHJcbiAgICBcclxufVxyXG5cclxubGkge1xyXG4gICAgY29sb3I6IHZhcigtLXByaW1hcnktYmFja2dyb3VuZC1jb2xvcik7XHJcbn1cclxuXHJcbi5jb2wtcmlnaHQge1xyXG4gICAgcGFkZGluZzogOHB4IDhweCA4cHggOHB4O1xyXG59XHJcbiJdfQ== */");
+
+/***/ }),
+
+/***/ "./src/app/resume/resume.component.ts":
+/*!********************************************!*\
+  !*** ./src/app/resume/resume.component.ts ***!
+  \********************************************/
+/*! exports provided: ResumeComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ResumeComponent", function() { return ResumeComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+
+
+let ResumeComponent = class ResumeComponent {
+    constructor() { }
+    ngOnInit() {
+    }
+};
+ResumeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+        selector: 'app-resume',
+        template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! raw-loader!./resume.component.html */ "./node_modules/raw-loader/dist/cjs.js!./src/app/resume/resume.component.html")).default,
+        styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(/*! ./resume.component.css */ "./src/app/resume/resume.component.css")).default]
+    })
+], ResumeComponent);
 
 
 
